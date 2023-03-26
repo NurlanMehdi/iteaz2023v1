@@ -1,0 +1,70 @@
+/**
+ *    Version: 1.0.1
+ *     Author: Ali Mahmudlu (alimahmudlu), Taleh Rzayev (rzayevtaleh01)
+ *    Website: http://alimahmudlu.github.io
+ *     Github: https://github.com/alimahmudlu/, https://github.com/rzayevtaleh01/
+ *       Repo: https://github.com/alimahmudlu/ite.az/
+ *  Telephone: +994708550235
+ *      Email: alimahmudlu@gmail.com
+*/
+
+@font-face {font-family: "SF-Pro-Text";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/SF-Pro-Text/Regular/1c45e28f8e86cc89876f003b953cc3e9.eot"); /* IE9*/
+    src: url("../fonts/SF-Pro-Text/Regular/1c45e28f8e86cc89876f003b953cc3e9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SF-Pro-Text/Regular/1c45e28f8e86cc89876f003b953cc3e9.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Regular/1c45e28f8e86cc89876f003b953cc3e9.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Regular/1c45e28f8e86cc89876f003b953cc3e9.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/SF-Pro-Text/Regular/1c45e28f8e86cc89876f003b953cc3e9.svg#SF Pro Text Regular") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "SF-Pro-Text";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/SF-Pro-Text/Medium/1bd3de6fcdd9ba7750e5a353dc6ef6e3.eot"); /* IE9*/
+    src: url("../fonts/SF-Pro-Text/Medium/1bd3de6fcdd9ba7750e5a353dc6ef6e3.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SF-Pro-Text/Medium/1bd3de6fcdd9ba7750e5a353dc6ef6e3.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Medium/1bd3de6fcdd9ba7750e5a353dc6ef6e3.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Medium/1bd3de6fcdd9ba7750e5a353dc6ef6e3.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/SF-Pro-Text/Medium/1bd3de6fcdd9ba7750e5a353dc6ef6e3.svg#SF Pro Text Regular") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "SF-Pro-Text";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/SF-Pro-Text/Bold/28adc6c6fd652123c3e173389a8be17f.eot"); /* IE9*/
+    src: url("../fonts/SF-Pro-Text/Bold/28adc6c6fd652123c3e173389a8be17f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SF-Pro-Text/Bold/28adc6c6fd652123c3e173389a8be17f.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Bold/28adc6c6fd652123c3e173389a8be17f.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Bold/28adc6c6fd652123c3e173389a8be17f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/SF-Pro-Text/Bold/28adc6c6fd652123c3e173389a8be17f.svg#SF Pro Text Bold") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "SF-Pro-Text";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/SF-Pro-Text/Semibold/d6243b42d786410a86f0bafee83d503a.eot"); /* IE9*/
+    src: url("../fonts/SF-Pro-Text/Semibold/d6243b42d786410a86f0bafee83d503a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SF-Pro-Text/Semibold/d6243b42d786410a86f0bafee83d503a.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Semibold/d6243b42d786410a86f0bafee83d503a.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Semibold/d6243b42d786410a86f0bafee83d503a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/SF-Pro-Text/Semibold/d6243b42d786410a86f0bafee83d503a.svg#SF Pro Text Bold") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "SF-Pro-Text";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/SF-Pro-Text/Light/236987803794b916d95e7fd41ed4fee0.eot"); /* IE9*/
+    src: url("../fonts/SF-Pro-Text/Light/236987803794b916d95e7fd41ed4fee0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SF-Pro-Text/Light/236987803794b916d95e7fd41ed4fee0.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Light/236987803794b916d95e7fd41ed4fee0.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Light/236987803794b916d95e7fd41ed4fee0.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/SF-Pro-Text/Light/236987803794b916d95e7fd41ed4fee0.svg#SF Pro Text Bold") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "SF-Pro-Text";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/SF-Pro-Text/Italic/08179ec9f66848e9cde011cca4b9f320.eot"); /* IE9*/
+    src: url("../fonts/SF-Pro-Text/Italic/08179ec9f66848e9cde011cca4b9f320.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/SF-Pro-Text/Italic/08179ec9f66848e9cde011cca4b9f320.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Italic/08179ec9f66848e9cde011cca4b9f320.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/SF-Pro-Text/Italic/08179ec9f66848e9cde011cca4b9f320.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/SF-Pro-Text/Italic/08179ec9f66848e9cde011cca4b9f320.svg#SF Pro Text Bold") format("svg"); /* iOS 4.1- */
+}

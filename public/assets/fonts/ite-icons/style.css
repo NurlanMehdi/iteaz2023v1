@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'ite-icons';
+  src:  url('fonts/ite-icons.eot?kfr2kl');
+  src:  url('fonts/ite-icons.eot?kfr2kl#iefix') format('embedded-opentype'),
+    url('fonts/ite-icons.ttf?kfr2kl') format('truetype'),
+    url('fonts/ite-icons.woff?kfr2kl') format('woff'),
+    url('fonts/ite-icons.svg?kfr2kl#ite-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ite-icons {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ite-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ite-logo .path1:after {
+  content: "\e900";
+  color: rgb(0, 148, 208);
+}
+.ite-logo .path2:after {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(0, 148, 208);
+}
+.ite-logo .path3:after {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(21, 128, 53);
+}
+.ite-logo .path4:after {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(21, 128, 53);
+}
+.ite-logo .path5:after {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(9, 43, 112);
+}
+.ite-logo .path6:after {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(9, 43, 112);
+}
+.ite-logo .path7:after {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(9, 43, 112);
+}
+.ite-logo .path8:after {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(9, 43, 112);
+}
+.ite-logo-withText .path1:after {
+  content: "\e908";
+  color: rgb(90, 156, 49);
+}
+.ite-logo-withText .path2:after {
+  content: "\e909";
+  margin-left: -2.90625em;
+  color: rgb(0, 148, 208);
+}
+.ite-logo-withText .path3:after {
+  content: "\e90a";
+  margin-left: -2.90625em;
+  color: rgb(0, 148, 208);
+}
+.ite-logo-withText .path4:after {
+  content: "\e90b";
+  margin-left: -2.90625em;
+  color: rgb(21, 128, 53);
+}
+.ite-logo-withText .path5:after {
+  content: "\e90c";
+  margin-left: -2.90625em;
+  color: rgb(21, 128, 53);
+}
+.ite-logo-withText .path6:after {
+  content: "\e90d";
+  margin-left: -2.90625em;
+  color: rgb(9, 43, 112);
+}
+.ite-logo-withText .path7:after {
+  content: "\e90e";
+  margin-left: -2.90625em;
+  color: rgb(9, 43, 112);
+}
+.ite-logo-withText .path8:after {
+  content: "\e90f";
+  margin-left: -2.90625em;
+  color: rgb(9, 43, 112);
+}
+.ite-logo-withText .path9:after {
+  content: "\e910";
+  margin-left: -2.90625em;
+  color: rgb(9, 43, 112);
+}
+.ite-chevron-up:after {
+  content: "\e915";
+}
+.ite-chevron-right:after {
+  content: "\e91b";
+}
+.ite-chevron-down:after {
+  content: "\e914";
+}
+.ite-chevron-left:after {
+  content: "\e911";
+}
+.ite-arrow-up:after {
+  content: "\e92c";
+}
+.ite-arrow-right:after {
+  content: "\e92d";
+}
+.ite-arrow-down:after {
+  content: "\e929";
+}
+.ite-arrow-left:after {
+  content: "\e92e";
+}
+.ite-search:after {
+  content: "\e91c";
+}
+.ite-basket:after {
+  content: "\e92f";
+}
+.ite-basket-outline:after {
+  content: "\e912";
+}
+.ite-times:after {
+  content: "\e913";
+}
+.ite-heart:after {
+  content: "\e925";
+}
+.ite-heart-outline:after {
+  content: "\e92b";
+}
+.ite-duration:after {
+  content: "\e92a";
+}
+.ite-calendar:after {
+  content: "\e91d";
+}
+.ite-web:after {
+  content: "\e91e";
+}
+.ite-location:after {
+  content: "\e91f";
+}
+.ite-plus:after {
+  content: "\e920";
+}
+.ite-ellipse:after {
+  content: "\e921";
+}
+.ite-bars:after {
+  content: "\e922";
+}
+.ite-check-circle:after {
+  content: "\e923";
+}
+.ite-check:after {
+  content: "\e924";
+}
+.ite-download:after {
+  content: "\e926";
+}
+.ite-certificate:after {
+  content: "\e927";
+}
+.ite-play-circle:after {
+  content: "\e928";
+}
+.ite-fb:after {
+  content: "\e916";
+}
+.ite-instagram:after {
+  content: "\e917";
+}
+.ite-youtube:after {
+  content: "\e918";
+}
+.ite-telegram:after {
+  content: "\e91a";
+}
+.ite-linkedn:after {
+  content: "\e919";
+}
